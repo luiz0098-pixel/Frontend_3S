@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+
+<div class="carrosel d-flex overflow-hidden">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner ">
+            <div class="carousel-item active bg-black" data-bs-interval="2000">
+                <img src="/static/img/carousel-1.jpg" class="d-block w-100 opacity-50" alt="...">
+            </div>
+            <div class="carousel-item bg-black" data-bs-interval="2000">
+                <img src="/static/img/carousel-2.jpg" class="d-block w-100 opacity-50" alt="...">
+            </div>
+            <div class="carousel-item bg-black" data-bs-interval="2000">
+                <img src="/static/img/carousel-3.jpg" class="d-block w-100 opacity-50" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="w-100 h-100 position-absolute d-flex flex-column justify-content-evenly">
+        <p class="title-senai text-white display-1 text-center">Capacitação profissional na barbearia</p>
+        <p class="subtitle-senai text-white display-6 text-center">Confira os nossos cursos Profissionalizantes</p>
+    </div>
+
+</div>
+
+<div class="cursos">
+
+
+    <div class="curso-text col-8">
+        <h1>Do Zero ao Corte Perfeito:O Caminho para a Cadeira de Ouro</h1>
+        <p>Não é sobre cortar cabelo, é sobre esculpir identidades. Neste curso, você não vai apenas aprender a usar a
+            máquina; vai dominar a arte do visagismo, o ângulo exato da navalha e a psicologia do atendimento VIP.
+            Esqueça o básico. Prepare-se para entrar no mercado como um profissional de elite, capaz de cobrar o valor
+            que o seu talento realmente vale. Sua jornada para se tornar uma referência começa aqui.</p>
+    </div>
+
+    <div class="curso-img bg-dark col-4">
+        <img src="/static/img/carousel-4.jpg" class="w-100 h-100">
+    </div>
+</div>
+
+
+<div class="barbeiro">
+
+    <div class="curso-img bg-dark col-4">
+        <img src="/static/img/carousel-5.jpg" class="w-100 h-100">
+    </div>
+
+    <div class="curso-text col-8 text-center">
+        <h1>Arquitetura do Olhar: Domine a Arte de Criar Novas Mulheres</h1>
+        <p>Ser cabeleireiro não é sobre cortar pontas; é sobre entender a alma de quem senta na sua cadeira. Neste
+            curso, você vai do fundamento à alta performance: aprenda a matemática por trás da colorimetria, a precisão
+            dos cortes que rejuvenescem e as técnicas de finalização que parecem capa de revista. Prepare-se para ser o
+            profissional que as clientes não apenas visitam, mas em quem elas confiam cegamente. Transforme fios em
+            obras de arte e sua carreira em um negócio de luxo.</p>
+    </div>
+
+
+</div>
+{% endblock %}
