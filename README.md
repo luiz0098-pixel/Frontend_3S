@@ -30,3 +30,7 @@
 ### detalhe cursos:
 <img width="1892" height="913" alt="image" src="https://github.com/user-attachments/assets/8fc1799a-411b-4c82-8ed7-9aaa432827ea" />
 <img width="1893" height="914" alt="image" src="https://github.com/user-attachments/assets/d132a883-7154-4f3c-a952-bde77f884d0e" />
+
+### get animais:
+<img width="1912" height="922" alt="image" src="https://github.com/user-attachments/assets/61af1f17-a050-4c13-8c37-55876b0e1f11" />
+
