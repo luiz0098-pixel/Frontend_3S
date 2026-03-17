@@ -34,3 +34,5 @@
 ### get animais:
 <img width="1912" height="922" alt="image" src="https://github.com/user-attachments/assets/61af1f17-a050-4c13-8c37-55876b0e1f11" />
 
+### get gatos:
+<img width="1892" height="923" alt="image" src="https://github.com/user-attachments/assets/f15b939d-f298-4a3f-8e8a-21f2b6208757" />
